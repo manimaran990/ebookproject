@@ -29,14 +29,17 @@ def addxml(request):
         pdf = request.POST['pdf'],
         category = request.POST['category'],
         date = request.POST['date'])
-
+    
+    #change the token here
     token = '2b078f735e2a91f37f244d244751ac5499d54411'
     g = Github(token)
+    #change the repository name
     repo = g.get_user().get_repo('xmlpush')
 
     with open('booksdb.xml','a+') as f:
         f.write(xmlstr+'\n')
 
+    #change xml file name
     file_list = ['booksdb.xml']
     commit_message = request.POST['commitmsg']
     master_ref = repo.get_git_ref('heads/master')

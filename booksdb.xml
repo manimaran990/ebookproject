@@ -9,3 +9,14 @@
                     <category>http://sample.com/1.jpg</category>
                     <date></date>
                 </book>
+<book>
+                    <bookid>1234</bookid>
+                    <title>sherlock</title>
+                    <author>அறிஞர் அண்ணா</author>
+                    <image>https://www.photosforclass.com/download/pixabay-1149402?webUrl=https%3A%2F%2Fpixabay.com%2Fget%2Fe834b5062cf4033ed1584d05fb1d4e97e07ee3d21cac104496f5c978afefb3be_960.jpg&user=Free-Photos</image>
+                    <link>http://sample.com/1.jpg</link>
+                    <epub>http://sample.com/1.jpg</epub>
+                    <pdf>http://sample.com/1.jpg</pdf>
+                    <category>சிறுகதைகள்</category>
+                    <date>2018-11-16</date>
+                </book>
