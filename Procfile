@@ -1,1 +1,1 @@
-web: gunicorn xmlpush:app 
+web: gunicorn ebookproject.wsgi --log-file
