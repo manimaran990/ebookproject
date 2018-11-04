@@ -1,0 +1,11 @@
+<book>
+                    <bookid>1234</bookid>
+                    <title>sherlock</title>
+                    <author>அறிஞர் அண்ணா</author>
+                    <image>http://sample.com/1.jpg</image>
+                    <link>http://sample.com/1.jpg</link>
+                    <epub>http://sample.com/1.jpg</epub>
+                    <pdf>http://sample.com/1.jpg</pdf>
+                    <category>http://sample.com/1.jpg</category>
+                    <date></date>
+                </book>

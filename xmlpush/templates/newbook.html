@@ -1,0 +1,23 @@
+<html>
+    <head> 
+        <title>Add book details</title>
+    </head>
+    <body> 
+        <h2>Add new book details</h2><br>
+        <form action="/addxml/" method="POST"> {% csrf_token %}
+            BookID: <input type="text" name="bookid" required><br>
+            Title: <input type="text" name="title" required><br>
+            Author: <input type="text" name="author" required><br>
+            Image: <input type="text" name="image" required><br>
+            Link: <input type="text" name="link" required><br>
+            Image: <input type="text" name="epub" required><br>
+            Pdf Link: <input type="text" name="pdf"><br>
+            Category: <input type="text" name="category" required><br>
+            Date: <input type="date" name="date" ><br> 
+            <hr>
+            Commit message: <input type="text" name="commitmsg"><br>
+            <button>Commit</button>           
+        </form>
+            
+    </body>
+</html>

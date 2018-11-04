@@ -1,0 +1,11 @@
+<book>
+        <bookid>1234</bookid>
+        <title>test blog123</title>
+        <author>அறிஞர் அண்ணா</author>
+        <image>http://sample.com/1.jpg</image>
+        <link>http://sample.com/1.jpg</link>
+        <epub>http://sample.com/1.jpg</epub>
+        <pdf>http://sample.com/1.jpg</pdf>
+        <category>சிறுகதைகள்</category>
+        <date>2018-11-29</date>
+        </book>
