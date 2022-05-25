@@ -9,7 +9,7 @@ gunicorn==19.9.0
 idna==2.7
 psycopg2==2.7.5
 PyGithub==1.43.3
-PyJWT==1.6.4
+PyJWT==2.4.0
 pytz==2018.7
 requests==2.20.0
 smmap2==2.0.5
